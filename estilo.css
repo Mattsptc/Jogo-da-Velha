@@ -1,0 +1,47 @@
+body {
+    background-color: white;
+    text-align: center;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: grey;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: grey;
+}
+
+.jogador, .vencedor{
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+
+button {
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    background-color: grey;
+    cursor: pointer;
+}
+
+body.dark-mode {
+	background-color: #000401;
+	color: #e5e8e8;
+}
+
+button.dark-mode {
+	background-color: #e5e8e8;
+	color: #4e545c;
+    cursor: pointer;
+}
+
+button.dark-mode:hover {
+	background-color: #4e545c;
+	color: #e5e8e8;
+    cursor: pointer;
+}
